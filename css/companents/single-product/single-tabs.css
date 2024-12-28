@@ -1,0 +1,42 @@
+
+.single-tabs{
+    margin-top: 30px;
+}
+.single-tabs .content{
+    display: none;
+}
+.single-tabs .content.active{
+    display: block;
+}
+.single-tabs .tab-list{
+    display: flex;
+    font-size: 14px;
+    align-items: center;
+    column-gap: 20px;
+    border-bottom: 1px solid #dee0ea;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+.single-tabs .tab-list ul a.active{
+    font-weight: 500;
+}
+.single-tabs .tab-panel-descritions{
+    font-size: 14px;
+    padding-bottom: 30px;
+}
+.single-tabs  h3{
+    font-size: 16px;
+    font-weight: 500;
+    margin: 15px 0;
+}
+.single-tabs .tab-panel-informations table{
+    border-collapse: collapse;
+    width: 100%;
+}
+.single-tabs .tab-panel-informations table th,
+.single-tabs .tab-panel-informations table td{
+    border: 1px solid #dee0ea;
+    padding: 10px 6px;
+    text-align: start;
+    font-size: 14px;
+}

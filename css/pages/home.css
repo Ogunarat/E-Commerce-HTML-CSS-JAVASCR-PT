@@ -1,0 +1,111 @@
+.section-title{
+    text-align: center;
+    margin: 35px 0;
+}
+.section-title h2{
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 0.8;
+    margin-bottom: 4px;
+}
+/*! Categories Start*/
+.categories{
+    margin: 40px 0;
+}
+.categories .category-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+/*! Categories End*/
+/*! Product Start*/
+.products{
+    margin-bottom: 40px;
+}
+/* .products .product-list{
+    /* display: flex;
+    flex-wrap: wrap; */
+    /* gap: 20px; 
+} */
+
+/*! Product End*/
+/*! Campaings Start*/
+.campaings .campaings-wrapper{
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+/*! Campaings End*/
+/*! Blog Start*/
+.blogs{
+    margin: 40px 0;
+}
+.blogs .blog-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+@media (max-width:768px) {
+    .blogs .blog-list{
+        grid-template-columns: 1fr ;
+    }
+}
+/*! Blog End*/
+/*! Brands Start*/
+.brands{
+    margin: 40px 0;
+}
+.brands .brand-list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border: 1px solid #dee0ea;
+    padding: 30px 5px;
+}
+.brands .brand-item{
+    opacity: 0.4;
+    transition: 0.2s ease opacity;
+}
+.brands .brand-item:hover{
+    opacity: 1;
+}
+/*! Brands End*/
+/*! Policy Start*/
+.policy{
+    border: 1px solid #dee0ea;
+    margin-top: 40px;
+}
+.policy .policy-list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 25px 0;
+}
+.policy-list .policy-item{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+.policy .policy-item i{
+    font-size: 50px;
+    display: flex;
+}
+.policy .policy-item .policy-texts{
+    display: flex;
+    flex-direction: column;
+}
+.policy .policy-texts strong{
+    font-weight: 600;
+}
+.policy .policy-texts span{
+    font-size: 12px;
+}
+@media (max-width:768px) {
+    .policy .policy-list{
+        display: flex;
+        flex-direction: column;
+    }
+}
+/*! Policy End*/
